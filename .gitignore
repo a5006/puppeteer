@@ -1,7 +1,7 @@
 
 *.editorconfig
 *.eslintrc.js
-*.csv
+output/*
 # Logs
 logs
 *.log

@@ -29,7 +29,7 @@ const fs = require('fs-extra');
 
         const name = await li.$eval('h2', el => el.innerText);
         console.log('name', name)
-        await fs.appendFile('out.csv', `"${i}","${name}"\n`)
+        await fs.appendFile('output/out.csv', `"${i}","${name}"\n`)
       }
     }
     console.log('done');
